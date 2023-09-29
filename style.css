@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url("https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/superover-bg.png");
+    background-size: cover;
+    font-family: 'poppins',sans-serif;
+    color: white;
+    text-align: center;
+    /* background-repeat: no-repeat; */
+
+}
+#logo{
+    width: 200px;
+    margin-top: 35px;
+}
+section{
+    display: flex;
+    
+    justify-content: center;
+    margin: auto;
+}
+h1{
+    font-size: 80px;
+    font-weight: 700;
+}
+.score{
+    padding: 30px;
+    border-radius: 20px;
+    margin: 50px;
+
+}
+#team1{
+    background-color: #214880;
+    
+}
+#team2{
+    background-color: #489A24;
+}
+.ball{
+    border-radius: 50%;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    color: black;
+    font-size: 2em;
+    font-weight: bold;
+    /* padding: 10px; */
+    /* text-align: center; */
+}
+.balls{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.scoreboard{
+    font-size: 3em;
+    font-weight: bold;
+}
+.button{
+    width: 100px;
+    margin: 0px 30px;
+    cursor: pointer;
+}
+@keyframes clickbutton {
+    0%{
+        transform: scale(1);
+
+    }
+    50%{
+        transform: scale(0.9);
+
+    }
+    100%{
+        transform: scale(1);
+
+    }
+}
+.button:active{
+    animation: clickbutton 0.3s ease-in-out;
+}
+/* #logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 115px;
+
+}
+h1{
+    text-align:center;
+    font-size: 50px;
+    padding-top: 20px;
+    color: bisque;
+}
+.scoreboard{
+    text-align: center;
+    color: aliceblue;
+    font-size: 35px;
+    padding-top: 75px;
+}
+#team1{
+    width: 300px;
+    height: 220px;
+    border: 2px solid blue;
+    border-radius: 14px;
+    background-color: blue;
+
+} */
